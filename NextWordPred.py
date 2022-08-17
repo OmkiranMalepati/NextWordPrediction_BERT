@@ -2,9 +2,9 @@ import os
 import streamlit as st
 import torch
 import string
-import pynput
+#import pynput
 from transformers import BertTokenizer, BertForMaskedLM
-from pynput import keyboard
+#from pynput import keyboard
 
 
 def load_model():
